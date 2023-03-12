@@ -1,6 +1,6 @@
 const clock = document.querySelector(".clock");
 const btn = document.querySelector(".btn__start");
-let seconds = 30;
+let seconds = 60;
 let toggle = false;
 let done = true;
 
@@ -23,7 +23,7 @@ const onClick = () => {
     }
     done = false;
     if (seconds === 0) {
-        seconds = 30;
+        seconds = 60;
     }
     if (toggle) {
         clearInterval(timer);
