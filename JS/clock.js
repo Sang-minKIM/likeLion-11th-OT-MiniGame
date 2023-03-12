@@ -1,5 +1,3 @@
-import { getPhoto } from "./photo";
-
 const clock = document.querySelector(".clock");
 const btn = document.querySelector(".btn__start");
 let seconds = 30;
