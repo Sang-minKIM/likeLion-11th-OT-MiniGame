@@ -38,8 +38,9 @@ body {
 .photo {
     width: 70%;
     height: 75%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     background-color: rgb(114, 201, 255);
 }
 
