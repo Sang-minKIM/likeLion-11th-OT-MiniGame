@@ -1,6 +1,6 @@
 const photo = document.querySelector(".photo");
 
-const photoList = ["1.png", "2.png", "3.png", "5.png", "6.png", "7.png", "4.jpeg", "8.jpeg"];
+const photoList = ["1.png", "2.png", "3.png", "5.png", "6.png", "7.png", "4.jpeg", "8.jpeg", "9.png", "10.png"];
 
 const getPhoto = () => {
     const img = photoList[Math.floor(Math.random() * photoList.length)];
